@@ -2,3 +2,4 @@
 bears = YAMLLintBear
 files = **.yml
 language = yaml
+document_start = False
