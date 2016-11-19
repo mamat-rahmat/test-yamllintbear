@@ -1,0 +1,4 @@
+[yaml]
+bears = YAMLLintBear
+files = **.yml
+language = yaml
