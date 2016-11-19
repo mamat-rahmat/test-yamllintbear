@@ -5,4 +5,4 @@ script:
       docker run --volume=$(pwd):/app --workdir=/app
       coala/base:pre /bin/bash -c "pip3 install
       'git+https://github.com/jayvdb/coala-quickstart@gh_39';
-      coala-quickstart --ci; coala-ci"
+      cat .coafile; coala-quickstart --ci; coala-ci"
